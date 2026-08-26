@@ -2,14 +2,14 @@
 
 📌 About the Project:
 
-AI Image Generator is a web application that generates images based on the text prompt provided by the user. It uses a Generative AI image model to convert text descriptions into creative images.
+AI Image Generator is a simple Generative AI application that creates images from text prompts. The user enters a description, and the AI model generates an image based on the given prompt.
 
 ✨ Features:
 
-- 📝 Enter a text prompt
-- 🤖 AI-powered image generation
-- 🖼️ Generates images based on the given prompt
-- 🌐 Simple and user-friendly web interface
+- 📝 Text-to-image generation
+- 🤖 Generative AI-powered image creation
+- 🖥️ Simple and interactive interface
+- 🎨 Generates images based on user prompts
 - ⚡ Easy to use
 
 🛠️ Technologies Used:
@@ -17,40 +17,29 @@ AI Image Generator is a web application that generates images based on the text 
 - Python
 - Streamlit
 - Hugging Face Diffusers
-- Generative AI Model
+- Text-to-Image AI Model
 
-🔄 Workflow:
+🔄 How It Works:
 
-User Prompt → AI Image Model → Generated Image → Display Output
+Enter Text Prompt → AI Model Processes the Prompt → Image is Generated → Generated Image is Displayed
 
-🖼️ Output:
+🖼️ What It Displays:
 
-Example Generated Image
+The application takes a text prompt from the user and displays an AI-generated image based on the description.
 
-"![AI Image Generator Output](Image1.png.png)"
+Example Prompt:
+"A cute cat sitting in the garden"
 
-🚀 How to Run:
+The generated image is displayed based on the given prompt.
 
-1. Clone or download the repository.
-2. Install the required Python libraries.
-3. Run the Streamlit application.
-4. Enter a text prompt.
-5. Click the generate button.
-6. View the generated image.
+🚀 How to Use
 
-📂 Project Structure
-
-- AI-Image-Generator
-
-- app.py
-- output.png
-- requirements.txt
-- README.md
-
-💡 What This Project Demonstrates:
-
-This project demonstrates how Generative AI can be used to create images from natural-language text prompts and how an AI model can be integrated into a simple web application.
+  1. Install the required Python libraries.
+  2. Run the Streamlit application.
+  3. Enter a text prompt.
+  4. Click the Generate Image button.
+  5. View the generated image.
 
 📚 Learning Experience:
 
-Through this project, I learned about Generative AI, text-to-image models, Hugging Face Diffusers, Python, and creating interactive applications using Streamlit.
+This project helped me understand Generative AI, text-to-image models, Hugging Face Diffusers, and how to integrate an AI model into a Streamlit application.
